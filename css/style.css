@@ -13,6 +13,8 @@ body {
   flex-direction: column;
   font-family: Roboto;
   background-color: #ebf1ff;
+  max-width: 100vw;
+  overflow-x: hidden;
 }
 
 .header {
@@ -351,6 +353,177 @@ input[type="email"]::placeholder {
   color:#215ee9;
 }
 
-.rightColumn {
-  flex-grow: 2;
+body::-webkit-scrollbar {
+  width: 10px;
+  background-color: #f9f9fd;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #215ee9;
+}
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.2);
+  box-shadow: inset 0 0 6px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  background-color: #f9f9fd;
+}
+
+.illustration {
+  position: relative;
+  transform: translate(93px, -82px);
+}
+
+.first{
+  position: absolute;
+  width: 654px;
+  height: 198px;
+  left: 130px;
+  top: 38px;
+  z-index: -3;
+  overflow: hidden;
+}
+
+.second {
+  position: absolute;
+  width: 740px;
+  height: 885px;
+  z-index: -1;
+  filter: drop-shadow(50px -56px 104px rgba(28, 91, 235, 0.05));
+  overflow: hidden;
+}
+
+.third {
+  position: absolute;
+  width: 850px;
+  top: 296px;
+  z-index: -2;
+  overflow: hidden;
+}
+
+.Vector1 {
+  position: absolute;
+  width: 453.5px;
+  height: 494.38px;
+  left: 129px;
+  top: 639.13px;
+  opacity: 0.2;
+  z-index: -1;
+}
+
+.Vector2 {
+  position: absolute;
+  width: 507.5px;
+  height: 386.5px;
+  left: 22.7px;
+  top: 730px;
+  opacity: 0.2;
+  z-index: -1;
+}
+
+.Vector3 {
+  position: absolute;
+  width: 610.5px;
+  height: 372.5px;
+  left: -138px;
+  top: 724px;
+  opacity: 0.2;
+  z-index: -1;
+}
+
+.Vector4 {
+  position: absolute;
+  width: 490.5px;
+  height: 263.38px;
+  left: -137.5px;
+  top: 812px;
+  opacity: 0.2;
+  z-index: -1;
+}
+
+.Vector5 {
+  position: absolute;
+  width: 507.5px;
+  height: 257.5px;
+  left: -190.5px;
+  top: 858px;
+  opacity: 0.2;
+  z-index: -1;
+}
+
+.Vector6 {
+  position: absolute;
+  width: 507.5px;
+  height: 257.5px;
+  left: -226.5px;
+  top: 884px;
+  opacity: 0.2;
+  z-index: -1;
+}
+
+.Vector7 {
+  position: absolute;
+  width: 502.5px;
+  height: 253.38px;
+  left: 434px;
+  top: 65.13px;
+  opacity: 0.2;
+  z-index: -1;
+  transform: rotate(-165deg);
+}
+
+.Vector8 {
+  position: absolute;
+  width: 507.5px;
+  height: 215.5px;
+  left: 523.77px;
+  top: 87.5px;
+  opacity: 0.2;
+  z-index: -1;
+  transform: rotate(-165deg);
+}
+
+.Vector9 {
+  position: absolute;
+  width: 832.5px;
+  height: 192.5px;
+  left: 472px;
+  top: 107.07px;
+  opacity: 0.2;
+  z-index: -1;
+  transform: rotate(-165deg);
+}
+
+.Vector10 {
+  position: absolute;
+  width: 601.5px;
+  height: 200.5px;
+  left: 720px;
+  top: 71.5px;
+  opacity: 0.2;
+  z-index: -4;
+  transform: rotate(-165deg);
+}
+
+.Vector11 {
+  position: absolute;
+  width: 472.5px;
+  height: 171.5px;
+  left: 823px;
+  top: 39.5px;
+  opacity: 0.2;
+  z-index: -4;
+  transform: rotate(-165deg);
+}
+
+.Vector12 {
+  position: absolute;
+  width: 533.5px;
+  height: 177.5px;
+  left: 897px;
+  top: 7px;
+  opacity: 0.2;
+  z-index: -4;
+  transform: rotate(-165deg);
 }
