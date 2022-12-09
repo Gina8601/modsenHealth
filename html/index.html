@@ -2,92 +2,111 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link href="../css/style.css" rel="stylesheet" type="text/css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../assets/wind.svg" />
     <title>Modsen Health</title>
+    <link rel="stylesheet" href="../styles/header.css" />
+    <link rel="stylesheet" href="../styles/main.css" />
+    <link rel="stylesheet" href="../styles/index.css" />
+    <link rel="stylesheet" href="../styles/mobile-menu.css" />
   </head>
   <body>
-    <div class="header">
-      <header>
-        <div class="logo">
-          <img src="../img/Wind.svg" alt="Logo" />
-          <h1>Modsen Health</h1>
-        </div>
-        <div class="nav">
-          <ul>
-            <li class="selected"><a href="../html/index.html">Home</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Clinic</a></li>
-            <li><a href="#">Doctors</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </div>
-        <div class="authbtn">
-          <div class="auth">
-            <button class="logIn">Log In</button>
-            <button class="register">Register</button>
-          </div>
-          <div class="alerts">
-            <input type="image" src="../img/Notice.svg" alt="Notice" />
-          </div>
-        </div>
-      </header>
-    </div>
-    <div class="main">
-      <div class="container">
-        <div class="leftColumn">
-          <section class="info">
-            <h3 class="desc">Booking of doctor's appointment</h3>
-            <h1 class="title">Don't Miss Our Exclusive Patient Special</h1>
-            <p class="content">
-              We want to make sure that everyone has access to natural and
-              effective care. With our special, you'll receive a consultation
-              and a digital posture assesment.
-            </p>
-          </section>
-          <form class="mailling icon">
-            <input type="email" placeholder="Enter your email" />
-            <button>Get Started</button>
-          </form>
-          <section class="achievements">
-            <div class="achievement">
-              <h1 class="achivTitle">240</h1>
-              <p class="achivDesc">Qualified Doctors & Medical Specialists</p>
+    <div class="header-container">
+      <div class="header-alerts-container">
+        <div class="container">
+          <div class="header">
+            <div class="logo">
+              <img src="../assets/logo.svg" />
+              <span>Modsen Health</span>
             </div>
-            <div class="achievement">
-              <h1 class="achivTitle blue">1.456</h1>
-              <p class="achivDesc">Medical Tests Done For Our Patients</p>
+            <div class="links">
+              <div class="link selected">
+                <a href="../html/index.html">Home</a>
+              </div>
+              <div class="link"><a href="#">Services</a></div>
+              <div class="link"><a href="#">Clinic</a></div>
+              <div class="link"><a href="#">Doctors</a></div>
+              <div class="link"><a href="#">Contact</a></div>
             </div>
-            <div class="achievement">
-              <h1 class="achivTitle">1M+</h1>
-              <p class="achivDesc">Years of Experience The Medical Field</p>
+            <div class="user">
+              <div class="login link">Log In</div>
+              <div class="register">Register</div>
             </div>
-          </section>
-        </div>
-        <div class="rightColumn">
-          <div class="illustration">
-            <img class="first" src="../img/Upper.svg" alt="Upper vector">
-            <img class="second" src="../img/Hero.png" alt="Hero image">
-            <img class="third" src="../img/Lower.svg" alt="Lower vector">
+            <div class="mobile-menu-ic">
+              <span></span>
+            </div>
           </div>
         </div>
-        <div class="background">
-          <img class="Vector1" src="../img/group 1/Vector1.svg" alt="Vector">
-          <img class="Vector2" src="../img/group 1/Vector2.svg" alt="Vector">
-          <img class="Vector3" src="../img/group 1/Vector3.svg" alt="Vector">
-          <img class="Vector4" src="../img/group 1/Vector4.svg" alt="Vector">
-          <img class="Vector5" src="../img/group 1/Vector5.svg" alt="Vector">
-          <img class="Vector6" src="../img/group 1/Vector6.svg" alt="Vector">
-
-          <img class="Vector7" src="../img/group 1/Vector1.svg" alt="Vector">
-          <img class="Vector8" src="../img/group 1/Vector2.svg" alt="Vector">
-          <img class="Vector9" src="../img/group 1/Vector3.svg" alt="Vector">
-          <img class="Vector10" src="../img/group 1/Vector4.svg" alt="Vector">
-          <img class="Vector11" src="../img/group 1/Vector5.svg" alt="Vector">
-          <img class="Vector12" src="../img/group 1/Vector6.svg" alt="Vector">
+        <div class="alerts">
+          <img src="../assets/notification.svg" />
         </div>
       </div>
     </div>
+    <div class="main-container">
+      <div class="container">
+        <div class="main">
+          <div class="info">
+            <div class="pretitle">Booking of doctor's appointment</div>
+            <div class="title">
+              Don't Miss Our<br />Exclusive Patient<br />
+              <span id="special-shadow">Special</span>
+            </div>
+            <div class="content">
+              We want to make sure that everyone has access to natural<br />and
+              effective care. With our special, you'll receive a<br />consultation
+              and a digital posture assesment.
+            </div>
+            <div class="form">
+              <div class="input-container">
+                <img class="ic-mail" src="../assets/ic-mail.svg" />
+                <input placeholder="Enter your email" type="email" />
+                <div class="submit">Get Started</div>
+              </div>
+            </div>
+            <div class="achievements">
+              <div class="achievement">
+                <div class="title">240</div>
+                <div class="description">
+                  Qualified Doctors &<br />Medical Specialists
+                </div>
+              </div>
+              <div class="achievement">
+                <div class="title">1.456</div>
+                <div class="description">
+                  Medical Tests Done<br />For Our Patients
+                </div>
+              </div>
+              <div class="achievement">
+                <div class="title">1M+</div>
+                <div class="description">
+                  Years of Experience<br />The Medical Field
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="images">
+            <img id="hero-shadow" src="../assets/hero.png" />
+            <img id="hero" src="../assets/hero.png" />
+            <img id="hero-rect-top" src="../assets/hero-rect-top.png" />
+            <img id="hero-rect-bottom" src="../assets/hero-rect-bottom.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mobile-menu">
+      <div class="links">
+        <div class="link selected"><a href="../html/index.html">Home</a></div>
+        <div class="link"><a href="#">Services</a></div>
+        <div class="link"><a href="#">Clinic</a></div>
+        <div class="link"><a href="#">Doctors</a></div>
+        <div class="link"><a href="#">Contact</a></div>
+      </div>
+      <div class="mobile-user">
+        <div class="login link">Log In</div>
+        <div class="register">Register</div>
+      </div>
+    </div>
+    <script src="../script/index.js"></script>
   </body>
 </html>
