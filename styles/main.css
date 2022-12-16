@@ -215,6 +215,7 @@
 @media screen and (max-width: 1000px) {
   .main-container {
     margin-top: 30px;
+    overflow: hidden;
   }
 
   .main {
@@ -301,4 +302,50 @@
   .achievements {
     gap: 24px;
   }
+}
+
+@media screen and (max-width: 400px) {
+
+  .input-container {
+    width: 370px !important;
+    justify-content: normal;
+    transition: all 0.3s;
+  }
+
+  .main > .info > .form > .input-container > input  {
+    margin-right: 0 !important;
+    transition: all 0.3s;
+  }
+
+
+  .main > .info > .form > .input-container > .submit {
+    width: 120px !important;
+    padding: 12px 18px !important;
+    transition: all 0.3s;
+  }
+
+  .info > .title {
+    font-size: 45px !important;
+    transition: font-size 0.5s;
+  }
+  
+  .info > .content {
+    font-size: 14px !important;
+    transition: font-size 0.5s;
+  }
+
+  .achievements {
+    gap: 10px !important;
+  }
+
+  .achievement > .title {
+    font-size: 40px !important;
+    transition: font-size 0.5s;
+  }
+
+  .main > .info > .achievements .achievement > .description {
+    font-size: 12px !important;
+    transition: font-size 0.5s;
+  }
+
 }

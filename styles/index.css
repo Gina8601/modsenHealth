@@ -39,3 +39,51 @@ body::-webkit-scrollbar-track {
   border-radius: 10px;
   background-color: #f9f9fd;
 }
+
+.background-images {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  z-index: -1;
+}
+
+.vectors {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100vw;
+}
+
+.upper-vector, .lower-vector{
+  width: 100%; 
+  display: flex;
+}
+
+.upper-vector {
+  position: absolute;
+  width: 1133.5px;
+  height: 450.15px;
+  left: 752px;
+  top: 54px;
+}
+
+.lower-vector {
+  position: absolute;
+  width: 1133.5px;
+  height: 550.15px;
+  top: 640px;
+}
+
+.first-group-vectors {
+  justify-self: flex-end; 
+}
+
+@media screen and (max-width: 1600px) { 
+  .background-images {
+    display: none !important;
+  }
+}

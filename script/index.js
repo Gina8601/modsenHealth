@@ -10,3 +10,19 @@ mobileMenuIc.onclick = () => {
   mobileMenuIc.classList.toggle("active");
   document.body.classList.toggle("mobile-active")
 }
+
+const alerts = document.querySelector("#alerts");
+
+let alertsEnabled = false; 
+
+alerts.addEventListener("click", function(e){
+  alertsEnabled = !alertsEnabled; 
+  if (alertsEnabled) {
+    alerts.src = '../assets/notification.svg';
+    console.log("on");
+  }
+  else {
+    alerts.src = '../assets/notification_off.svg';
+    console.log("off");
+  }
+});
